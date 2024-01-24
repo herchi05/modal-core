@@ -10,7 +10,7 @@ export declare const CoreUtil: {
     formatNativeUrl(appUrl: string, wcUri: string, name: string): string;
     formatUniversalUrl(appUrl: string, wcUri: string, name: string): string;
     wait(miliseconds: number): Promise<unknown>;
-    openHref(href: string, target: '_blank' | '_self'): void;
+    openHref(href: string): void;
     setWalletConnectDeepLink(href: string, name: string): void;
     setWalletConnectAndroidDeepLink(wcUri: string): void;
     removeWalletConnectDeepLink(): void;
